@@ -1,0 +1,49 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://www.saintlad.com/wp-content/uploads/2019/02/studio-ghibli-wallpaper.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.page-title {
+    color: #000000;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+    text-shadow: 2px 2px black;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body>img {
+    margin: 0 20px;
+}
+
+img {
+    max-height: 250px;
+}
+
+p{ 
+    text-align: center;
+    font-size: 42px;
+}
